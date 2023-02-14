@@ -3,7 +3,11 @@ import "./App.css";
 import Sidebar from "./components/Sidebar";
 
 function App() {
-    return <Sidebar />;
+    return (
+        <div className="bg-gray-600 w-screen h-screen">
+            <Sidebar />
+        </div>
+    );
 }
 
 export default App;
